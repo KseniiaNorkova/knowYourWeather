@@ -1,0 +1,59 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1c1f20;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 30px;
+    max-width: 200px;
+    margin: 50px auto;
+}
+
+h1 {
+    color: #468fca; 
+    text-align: center;
+    margin-bottom: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #468fca;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+h2 {
+    color: #333;
+    margin-top: 30px;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
